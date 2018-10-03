@@ -1,0 +1,15 @@
+{
+    "name": "steven/simple-mvc",
+    "authors": [
+        {
+            "name": "StevenGrl",
+            "email": "steven.grillon.45@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+          "": "src/"
+      }
+    },
+    "require": {}
+}
