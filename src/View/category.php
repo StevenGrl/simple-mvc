@@ -11,10 +11,10 @@
 </head>
 <body>
   <section>
-    <h1>Items</h1>
+    <h1>Categories</h1>
     <ul>
-    <?php foreach ($items as $item) : ?>
-      <li><a href="item/<?php echo $item['id'] ?>"><?= $item['title'] ?></a></li>
+    <?php foreach ($categories as $category) : ?>
+      <li><a href="category/<?php echo $category['id'] ?>"><?= $category['name'] ?></a></li>
     <?php endforeach ?>
     </ul>
   </section>

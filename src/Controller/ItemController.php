@@ -9,7 +9,13 @@
         {
           $itemManager = new ItemManager();
           $items = $itemManager->selectAllItems();
+          require __DIR__ . '/../View/item.php';
+        }
 
-          return $items;
+        public function show($id)
+        {
+          $itemManager = new ItemManager();
+          $item = $itemManager->selectItemById($id);
+          require __DIR__ . '/../View/showItem.php';
         }
     }
